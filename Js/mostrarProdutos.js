@@ -51,7 +51,7 @@ async function listaProdutos() {
 listaProdutos();
 
 async function deleteProduto(id) {
-    const url = `https://api-storage-tiaw-7tn6ado8j-francisco-leandros-projects.vercel.app/produtos/${id}`;
+    const url = `https://api-storage-tiaw-mu.vercel.app/produtos/${id}`;
     const options = {
         method: 'DELETE'
     };

@@ -1,5 +1,5 @@
 async function listaProdutos() {
-    const conexao = await fetch("https://api-storage-tiaw-7tn6ado8j-francisco-leandros-projects.vercel.app/produtos");
+    const conexao = await fetch("https://api-storage-tiaw-mu.vercel.app/produtos");
     if (!conexao.ok) {
         throw new Error("Não foi possível listar os produtos.");
     }
@@ -8,7 +8,7 @@ async function listaProdutos() {
 }
 
 async function criaProduto(nome, preco, url) {
-    const conexao = await fetch("https://api-storage-tiaw-7tn6ado8j-francisco-leandros-projects.vercel.app/produtos", {
+    const conexao = await fetch("https://api-storage-tiaw-mu.vercel.app/produtos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -27,7 +27,7 @@ async function criaProduto(nome, preco, url) {
 }
 
 async function buscaProduto(termoDeBusca) {
-    const conexao = await fetch(`https://api-storage-tiaw-7tn6ado8j-francisco-leandros-projects.vercel.app/produtos?q=${termoDeBusca}`);
+    const conexao = await fetch(`https://api-storage-tiaw-mu.vercel.app/produtos?q=${termoDeBusca}`);
     if (!conexao.ok) {
         throw new Error("Não foi possível buscar o produto.");
     }
