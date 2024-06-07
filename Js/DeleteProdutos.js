@@ -17,5 +17,6 @@ async function deleteProduto(id) {
     } catch (error) {
         console.error("Erro:", error);
     }
-    listaProdutos()
+    window.location.reload();
+
 }

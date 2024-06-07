@@ -20,7 +20,6 @@ function capturaFormulario(){
 }
 
 AddProduto(novoProduto)
-listaProdutos()
 }
 
 
@@ -48,5 +47,7 @@ async function AddProduto(produto) {
     } catch (error) {
         console.log("Erro:", error);
     }
+    window.location.reload();
+
 }
 
