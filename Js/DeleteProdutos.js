@@ -11,12 +11,13 @@ async function deleteProduto(id) {
             console.log("Produto deletado com sucesso");
             // Remover o card do DOM
             cardElement.remove();
+            window.location.reload();
         } else {
             console.error("Erro ao deletar o produto");
         }
     } catch (error) {
         console.error("Erro:", error);
     }
-    window.location.reload();
+    
 
 }
