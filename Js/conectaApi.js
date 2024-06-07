@@ -8,7 +8,7 @@ async function listaProdutos() {
 }
 
 async function criaProduto(nome, preco, url) {
-    const conexao = await fetch("http://localhost:3000/produtos", {
+    const conexao = await fetch("https://api-storage-tiaw-7tn6ado8j-francisco-leandros-projects.vercel.app/produtos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
