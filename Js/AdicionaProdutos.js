@@ -47,7 +47,7 @@ async function AddProduto(produto) {
     } catch (error) {
         console.log("Erro:", error);
     }
-    window.location.reload();
 
+    window.location.reload();
 }
 
