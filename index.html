@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/coracao.svg" alt="" max-width="25%">
+        <h1>AluraGeek</h1>
+    </header>
+
+    <main>
+
+        <section class="add_produtos">
+            <h2>Adicionar <br>Produto:</h2>
+
+            <input type="text" placeholder="nome do produto" required>
+            <input type="number" placeholder="preço do produto" required>
+            <input type="text" placeholder="Url da imagem" required>
+
+            <section class="buttons">
+            <button class="guardar">Guardar</button>
+            <button class="limpar">Limpar</button>
+            </section>
+        </section>
+
+        <section class="produtos">
+
+
+            <h2>Meus Produtos:</h2>
+
+            <section class="cards_produtos">
+
+                <div class="linha1" id="local_insere_cards">
+
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section>
+        <img src="images/coracao.svg" alt="" max-width="25%">
+        <h1>AluraGeek</h1>
+        </section>
+        <h3>DESENVOLVIDO POR FRANCISCO</h3>
+
+    </footer>
+    
+
+    <script src="Js/conectaApi.js" type="module"></script>
+    <script src="Js/AdicionaProdutos.js" type="module"></script>
+    <script src="Js/mostrarProdutos.js" type="module"></script>
+    <script src="Js/DeleteProdutos.js" type="module"></script>
+</body>
+</html>

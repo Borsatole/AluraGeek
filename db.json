@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "0bc4",
+      "nome": "Super Mini Classic 8 Bit Console",
+      "preco": 1000,
+      "imagem": "https://cdn.awsli.com.br/600x700/1056/1056573/produto/2349140591bb446969a.jpg"
+    },
+    {
+      "id": "7aa0",
+      "nome": "Retrô Lite 4k 10.000 Mil Jogos",
+      "preco": 90,
+      "imagem": "https://m.media-amazon.com/images/I/61fti090sJS._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "0d29",
+      "nome": "Portátil Retrô",
+      "preco": 150,
+      "imagem": "https://simplesprati.com.br/cdn/shop/products/See695b01863f4d71937215aa5ee7a2902_800x.jpg"
+    },
+    {
+      "id": "1294",
+      "nome": "PlayStation 2 PS2 Slim",
+      "preco": 900,
+      "imagem": "https://i5.walmartimages.com/seo/Restored-Sony-PlayStation-2-PS2-Slim-Game-Console-Refurbished_0b4b4cc0-34ad-43b3-aaee-0232b9ea8b54.3b5067f359097f89f549bed994204e99.jpeg"
+    },
+    {
+      "id": "4a23",
+      "nome": "PlayStation 3 Fat, 1 controle, 60GB, PS3",
+      "preco": 2500,
+      "imagem": "https://cdn.awsli.com.br/600x450/2443/2443989/produto/2540496415bfee0b94f.jpg"
+    },
+    {
+      "id": "f08e",
+      "nome": "Xbox 360 Arcade 4 GB Microsoft",
+      "preco": 2500,
+      "imagem": "https://i.zst.com.br/thumbs/12/14/34/36224075.jpg"
+    },
+    {
+      "id": "c531",
+      "nome": "Console Sony PS4 Pro 1 Tb (Seminovo)",
+      "preco": 2650,
+      "imagem": "https://eldorado.hubsell.com.br/media/catalog/product/3/2/3292719_console-2490-1_1.png"
+    },
+    {
+      "id": "9a48",
+      "nome": "Console Xbox One 500GB - Microsoft",
+      "preco": 2950,
+      "imagem": "https://cdn.awsli.com.br/600x450/138/138431/produto/8598395/b1a8857924-nyoxic.jpg"
+    }
+  ]
+}
