@@ -20,7 +20,7 @@ function capturaFormulario(){
 }
 
 AddProduto(novoProduto)
-
+listaProdutos()
 }
 
 

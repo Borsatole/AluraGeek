@@ -17,4 +17,5 @@ async function deleteProduto(id) {
     } catch (error) {
         console.error("Erro:", error);
     }
+    listaProdutos()
 }
