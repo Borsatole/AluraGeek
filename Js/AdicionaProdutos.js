@@ -27,7 +27,7 @@ AddProduto(novoProduto)
 
 
 async function AddProduto(produto) {
-    const url = 'http://localhost:3000/produtos';
+    const url = 'https://api-storage-tiaw-7tn6ado8j-francisco-leandros-projects.vercel.app/produtos';
     const options = {
         method: 'POST',
         headers: {
